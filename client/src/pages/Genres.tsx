@@ -52,11 +52,28 @@ const Genres = () => {
     <div className="min-h-screen bg-background">
       <Header />
       <div className="container mx-auto px-4 py-12">
+        <div className="flex justify-between items-center mb-8">
+          <div>
+             <img
+            src="/lovable-uploads/slam_dunk.png"
+            alt="Anime Genres"
+            className="h-72 w-auto mx-auto mb-8"
+          />
+          </div>
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-foreground mb-4">Anime Genres</h1>
           <p className="text-muted-foreground text-lg">
             Discover anime by your favorite genres
           </p>
+        </div>
+        <div>
+          <img
+            src="/lovable-uploads/attck.png"
+            alt="Anime Genres"
+            className="h-72 w-auto mx-auto mb-8"
+          />
+        </div>
+        
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">

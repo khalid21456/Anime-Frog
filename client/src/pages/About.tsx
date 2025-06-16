@@ -19,7 +19,7 @@ const About = () => {
             <div className="text-center mb-12">
               <div className="text-6xl mb-6">
                 <img
-                  src="/lovable-uploads/bleach_logo.png"
+                  src="/lovable-uploads/bleach.png"
                   alt="Anime Frog Logo"
                   className="h-72 w-auto mx-auto"
                 />
@@ -95,7 +95,7 @@ const About = () => {
                   <img
                     src="/lovable-uploads/89735c91-c154-47c3-b213-856fedc07dda.png"
                     alt="Khalid Edaoudi Profile"
-                    className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover flex-shrink-0"
+                    className="w-24 h-24 sm:w-20 sm:h-20 rounded-full object-cover flex-shrink-0"
                   />
                   <div className="flex-1 text-center sm:text-left">
                     <h3 className="text-xl font-semibold text-foreground mb-2">
