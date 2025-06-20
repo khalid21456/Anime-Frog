@@ -6,7 +6,6 @@ const fetch = require('node-fetch');
  */
 async function GetHomeAnime() {
   try {
-    console.log('Fetching anime data from Jikan API...');
     const response = await fetch('https://api.jikan.moe/v4/anime');
     
     if (!response.ok) {
