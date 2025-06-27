@@ -97,11 +97,11 @@ docker run -p 8080:8080 anime-frog-client
 
 ---
 
-## 🌐 Deployment
-
-You can deploy Anime Frog using your preferred cloud provider, or via [Lovable](https://lovable.dev/projects/67bb27ba-9611-4036-9464-09504cc327bc) for instant hosting and custom domain support.
-
----
+## 🌐 Docker
+**Frog Anime Server :** https://hub.docker.com/r/khalidedaoudi/frog-anime-server
+docker pull khalidedaoudi/frog-anime-server
+**Frog Anime Client :** https://hub.docker.com/r/khalidedaoudi/frog-anime-client
+docker pull khalidedaoudi/frog-anime-client
 
 ## 🤝 Contributing
 
