@@ -115,17 +115,6 @@ Contributions are welcome! Feel free to fork the repo, open issues, or submit pu
 
 ---
 
-## 👤 Developer
-
-**Khalid Edaoudi**  
-Full-Stack Developer
-
-- [GitHub](https://github.com/khalid21456)
-- [LinkedIn](https://www.linkedin.com/feed/)
-- Email: khalidedaoudi8@gmail.com
-
----
-
 ## 📢 Feedback
 
 We hope you enjoy exploring the amazing world of anime with Anime Frog! Your feedback and suggestions are always welcome.
