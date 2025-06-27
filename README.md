@@ -99,9 +99,13 @@ docker run -p 8080:8080 anime-frog-client
 
 ## 🌐 Docker
 **Frog Anime Server :** https://hub.docker.com/r/khalidedaoudi/frog-anime-server
+```sh
 docker pull khalidedaoudi/frog-anime-server
+```
 **Frog Anime Client :** https://hub.docker.com/r/khalidedaoudi/frog-anime-client
+```sh
 docker pull khalidedaoudi/frog-anime-client
+```
 
 ## 🤝 Contributing
 
