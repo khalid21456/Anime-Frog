@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    tools{
+        node "Node20"
+    }
     environment {
         REGISTRY = "docker.io"
         DOCKERHUB_CREDENTIALS = "dockerhub-creds"   // Jenkins credential ID
