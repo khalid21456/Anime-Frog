@@ -33,6 +33,7 @@ pipeline {
    stage('Sonarqube Analysis') {
     steps {
         dir("${BACKEND_DIR}") {
+            sh 'npm install'
             sh 'npm run sonar:sonar'
         }
     }
