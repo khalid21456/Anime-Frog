@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools{
-        node "Node20"
+        nodejs "Node20"
     }
     environment {
         REGISTRY = "docker.io"
