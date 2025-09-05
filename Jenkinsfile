@@ -33,7 +33,7 @@ pipeline {
    stage('Sonarqube Analysis') {
     steps {
         dir("${BACKEND_DIR}") {
-            sh 'npx node sonar.js'
+            sh 'npm run sonar:sonar'
         }
     }
 }
