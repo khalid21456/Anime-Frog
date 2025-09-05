@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node app/server.js",
     "dev": "nodemon app/server.js",
-    "test": "jest"
+    "test": "jest",
+    "sonar:sonar": "node sonar.js"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "node-fetch": "^2.7.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "sonarqube-scanner": "^4.3.0"
   }
 }
