@@ -33,7 +33,7 @@ pipeline {
         stage('Sonarqube Analysis') {
             steps {
                 dir("${BACKEND_DIR}") {
-                    sh ''' mvn sonar:sonar \
+                    sh ''' npm sonar:sonar \
                         -Dsonar.host.url=http://sonarqube:9000/ \
                         -Dsonar.login=squ_80f6c8176d559996c13e0553f46a659acfaa2b9c'''
                 }
