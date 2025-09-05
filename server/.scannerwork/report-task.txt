@@ -1,0 +1,6 @@
+projectKey=anime_frog
+serverUrl=http://localhost:9000
+serverVersion=25.9.0.112764
+dashboardUrl=http://localhost:9000/dashboard?id=anime_frog
+ceTaskId=7b519421-9153-40a8-96f1-a36ce4b01e32
+ceTaskUrl=http://localhost:9000/api/ce/task?id=7b519421-9153-40a8-96f1-a36ce4b01e32
